@@ -1279,4 +1279,67 @@ F 3 "" H 7400 7900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 7900 7350 7900
+$Comp
+L Buck-Converter U?
+U 1 1 5AFC21BD
+P 6400 0
+F 0 "U?" H 6400 -100 60  0000 C CNN
+F 1 "Buck-Converter" H 6400 0   60  0000 C CNN
+F 2 "" H 6400 0   60  0001 C CNN
+F 3 "" H 6400 0   60  0001 C CNN
+	1    6400 0   
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDC #PWR?
+U 1 1 5AFC32E0
+P 6950 -200
+F 0 "#PWR?" H 6950 -300 50  0001 C CNN
+F 1 "VDC" H 6950 50  50  0000 C CNN
+F 2 "" H 6950 -200 50  0001 C CNN
+F 3 "" H 6950 -200 50  0001 C CNN
+	1    6950 -200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5AFC334E
+P 5850 -200
+F 0 "#PWR?" H 5850 -350 50  0001 C CNN
+F 1 "VCC" H 5850 -50 50  0000 C CNN
+F 2 "" H 5850 -200 50  0001 C CNN
+F 3 "" H 5850 -200 50  0001 C CNN
+	1    5850 -200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AFC33BC
+P 5850 250
+F 0 "#PWR?" H 5850 0   50  0001 C CNN
+F 1 "GND" H 5850 100 50  0000 C CNN
+F 2 "" H 5850 250 50  0001 C CNN
+F 3 "" H 5850 250 50  0001 C CNN
+	1    5850 250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AFC342A
+P 6950 250
+F 0 "#PWR?" H 6950 0   50  0001 C CNN
+F 1 "GND" H 6950 100 50  0000 C CNN
+F 2 "" H 6950 250 50  0001 C CNN
+F 3 "" H 6950 250 50  0001 C CNN
+	1    6950 250 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 250  6950 150 
+Wire Wire Line
+	6950 -100 6950 -200
+Wire Wire Line
+	5850 -200 5850 -100
+Wire Wire Line
+	5850 150  5850 250 
 $EndSCHEMATC
