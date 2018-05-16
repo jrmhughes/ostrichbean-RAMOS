@@ -1,4 +1,4 @@
-update=16/05/2018 01:58:41
+update=16/05/2018 05:20:06
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,5 +62,16 @@ LibName32=contrib
 LibName33=valves
 LibName34=Arduino_Shield_Modules_for_KiCad_V3/arduino_shieldsNCL
 LibName35=my components/my components
+LibName36=kicad-ESP8266-master/ESP8266
+[schematic_editor]
+version=1
+PageLayoutDescrFile=blank.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
