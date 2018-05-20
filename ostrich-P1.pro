@@ -1,4 +1,4 @@
-update=20/05/2018 01:39:13
+update=20/05/2018 19:56:11
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=blank.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=C:/Users/jrmhu/Google Drive/DDocuments/KiCad/global libs
@@ -60,18 +72,6 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=Arduino_Shield_Modules_for_KiCad_V3/arduino_shieldsNCL
-LibName35=my components/my components
-LibName36=kicad-ESP8266-master/ESP8266
-[schematic_editor]
-version=1
-PageLayoutDescrFile=blank.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
+LibName34=my components/my components
+LibName35=kicad-ESP8266-master/ESP8266
+LibName36=freetronics_kicad_library-master/freetronics_schematic
